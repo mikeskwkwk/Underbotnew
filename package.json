@@ -1,0 +1,15 @@
+{
+  "name": "underdevs-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "@discordjs/voice": "^0.16.0",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.1.4"
+  }
+}
